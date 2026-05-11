@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html, body {
+    height: 100%;
+    background: #0a0a0a;
+    overscroll-behavior: none;
+    touch-action: none;
+  }
+
+  body {
+    direction: rtl;
+    color: #fff;
+  }
+
+  canvas {
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+  }
+}
+
+@layer utilities {
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+@layer components {
+  .pixel-frame {
+    /* GBC double border, drawn with box-shadow inset */
+    box-shadow:
+      inset 0 0 0 4px #f7f5e6,
+      inset 0 0 0 8px #202020;
+  }
+
+  .pixel-shadow {
+    text-shadow: 2px 2px 0 rgba(0,0,0,0.5);
+  }
+}
