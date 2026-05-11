@@ -21,7 +21,7 @@ export const QUESTS: Quest[] = [
       { id: 'tower', description: 'מצודת דוד', flag: 'stop_tower_done' },
       { id: 'kotel', description: 'הכותל המערבי', flag: 'stop_kotel_done' },
       { id: 'market', description: 'שוק מחנה יהודה', flag: 'stop_market_done' },
-      { id: 'tayelet', description: 'טיילת חאס', flag: 'stop_tayelet_done' },
+      { id: 'tayelet', description: 'טיילת הס', flag: 'stop_tayelet_done' },
       { id: 'center', description: 'מרכז העיר', flag: 'stop_center_done' },
     ],
   },

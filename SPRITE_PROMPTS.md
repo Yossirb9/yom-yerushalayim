@@ -328,7 +328,7 @@ Row 1:
                             green stripe along the top edge
 
 Row 2:
-  (2,0) "טיילת חאס"       — promenade sign, sky-blue placard with a tiny
+  (2,0) "טיילת הס"       — promenade sign, sky-blue placard with a tiny
                             mountain-skyline silhouette above the text
   (2,1) "מרכז העיר"       — city-center sign, cream placard with two
                             thin blue stripes (Israel flag colors) and

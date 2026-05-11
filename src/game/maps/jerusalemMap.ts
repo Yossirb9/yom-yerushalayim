@@ -151,7 +151,7 @@ export const JERUSALEM_MAP: MapDef = (() => {
   m.objects[19][7] = 'cafeTable';
   m.collision[19][7] = true;
 
-  // ===== Stop 4: טיילת חאס (Promenade Tayelet) — bottom-right =====
+  // ===== Stop 4: טיילת הס (Promenade Tayelet) — bottom-right =====
   // Sand area + benches + railing + binoculars + panorama plaque
   for (let dy = 0; dy < 3; dy++) {
     for (let dx = 0; dx < 4; dx++) {
