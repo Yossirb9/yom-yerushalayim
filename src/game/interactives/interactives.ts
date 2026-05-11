@@ -357,7 +357,7 @@ export const INTERACTIVE_DIALOGS: DialogState[] = [
     onEnterSetFlags: ['ceremony_finished'],
     lines: [
       { speaker: 'המנהלת', text: 'יישר כוח לכל הכיתה!' },
-      { speaker: 'המנהלת', text: 'נסיים בשירת "ירושלים של זהב" יחד.' },
+      { speaker: 'המנהלת', text: 'נסיים בשירת "ירושלים של זהב" — שיר של נעמי שמר משנת 1967, שהושר לראשונה רק שלושה שבועות לפני מלחמת ששת הימים.' },
       { speaker: '*', text: '🎵 אוויר הרים צלול כיין... 🎵' },
     ],
   },
